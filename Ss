@@ -5,3 +5,5 @@ gcloud services enable compute.googleapis.com \
 
 public_key_path = "id_rsa.pub"
 ssh_user        = "terraform"
+
+gcloud compute instances list
